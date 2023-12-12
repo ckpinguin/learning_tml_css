@@ -1,0 +1,76 @@
+* {
+    /* border: 2px solid hotpink !important; */
+}
+
+html {
+    font-family: "Cantarell", sans-serif;
+}
+
+body {
+    /* background-attachment: fixed; */
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: lightgray;
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-origin: border-box; */
+    background-attachment: fixed;
+    /* formatting */
+    color: whitesmoke;
+}
+
+#idx-atf>div {
+    height: 80vh;
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+
+button {
+    color: #D0FFEE;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid #d0ffee;
+    border-radius: 5px;
+    padding: .7rem 1.2rem;
+}

@@ -1,0 +1,77 @@
+body {
+    color: lightslategray;
+}
+
+#atf {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    background-color: deepskyblue;
+}
+
+button:hover {
+    cursor: pointer;
+    color: deepskyblue;
+    background-color: blue;
+}
+
+/* SMILE */
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.icon-smile {
+    color: #BCD2DA;
+    font-size: 10rem;
+    margin-bottom: .5rem;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+        color: #BCD2DA;
+    }
+    30% {
+        color: deeppink;
+    }
+    60% {
+        color: deepskyblue;
+    }
+    100% {
+        transform: rotate3d(1, 1, 1, 360deg);
+        color: #BCD2DA;
+    }
+}

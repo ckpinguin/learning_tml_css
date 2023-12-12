@@ -1,0 +1,38 @@
+html {
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(144, 238, 144);
+    border-left: black solid 6px;
+    border-right: black solid 6px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: gold 20px groove;
+    border-radius: 100%;
+}
+
+p,
+h1 {
+    padding: 0 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    line-height: 150%;
+    font-size: 1.5em;
+}
+
+#first {
+    color: lightseagreen;
+}
+
+#second {
+    color: lightcoral;
+}

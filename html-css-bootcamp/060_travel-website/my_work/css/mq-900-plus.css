@@ -1,0 +1,30 @@
+header {
+    /* width: 100vh; */
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding: 0; */
+}
+
+#logo {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 4rem;
+    margin: 0;
+}
+
+nav {
+    flex-basis: 0;
+    flex-grow: 2;
+    height: 100%;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}

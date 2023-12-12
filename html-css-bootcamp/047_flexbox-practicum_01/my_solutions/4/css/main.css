@@ -1,0 +1,103 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    /* I don't like vw because it prevents the user from resizing the browser which is not very polite */
+    /* font-size: 1vw; */
+    font-size: 1.2rem;
+}
+
+.icon {
+    height: 1em;
+    width: 1em;
+    /* vertical-align: -0.15em;
+    overflow: hidden; */
+}
+
+.icon-sm {
+    font-size: 1.2rem;
+}
+
+.icon-big {
+    font-size: 22em;
+    fill: rgb(255, 130, 168);
+}
+
+header {
+    /* position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.6rem;
+    /* layout: flex container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* formatting */
+    background-color: #56727C;
+    color: whitesmoke;
+    border-bottom: 1px solid darkgray;
+}
+
+nav {
+    padding-left: 2.5rem;
+}
+
+nav,
+header div {
+    /* flex container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    /* border: 1px solid black; */
+}
+
+header div {
+    padding-right: 2.5rem;
+}
+
+nav a,
+header div a {
+    /* flex container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    font-size: 1.2rem;
+    margin-right: .6rem;
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+    border-radius: .3rem;
+}
+
+header a:hover {
+    color: black;
+    background-color: rgb(140, 194, 211);
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    /* flex container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    font-size: 1vw;
+    color: #56727C;
+}
+
+main h1 {
+    font-family: serif;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-size: 10em;
+}

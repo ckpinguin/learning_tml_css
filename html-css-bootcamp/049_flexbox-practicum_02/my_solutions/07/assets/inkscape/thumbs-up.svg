@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="thumbs-up.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.56"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="504"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:pagecheckerboard="true" />
+  <defs
+     id="defs10" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <g
+       aria-label=""
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100.5769196px;line-height:1.25;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;stroke-width:2.5144231"
+       id="text509">
+      <path
+         d="m 21.26374,78.73626 c 0,1.96439 -1.62764,3.59203 -3.59204,3.59203 c -1.96439,0 -3.59203,-1.62764 -3.59203,-3.59203 c 0,-1.96439 1.62764,-3.59203 3.59203,-3.59203 c 1.9644,0 3.59204,1.62764 3.59204,3.59203 z M 85.92033,46.40797 c 0,2.07664 -1.57152,7.12794 -4.20941,7.18406 c 1.17863,1.34701 1.96439,3.98491 1.96439,5.78093 c 0,2.6379 -1.06639,4.88292 -2.97465,6.67894 c 0.6735,1.17863 1.01026,2.52564 1.01026,3.87266 c 0,2.58177 -1.29089,5.78092 -3.64816,7.07181 c 0.16837,1.01026 0.28062,2.07664 0.28062,3.14303 c 0,6.84731 -4.43391,9.37296 -10.77609,9.37296 H 60.7761 c -6.62281,0 -13.02112,-1.96439 -19.19493,-4.09716 C 38.5504,84.34881 33.38685,82.32829 30.24382,82.32829 H 28.4478 V 46.40797 h 1.79602 c 4.43392,0 11.11285,-9.59747 13.6385,-12.85275 c 1.40314,-1.73989 2.75015,-3.47978 4.32166,-5.10742 c 5.44418,-5.7248 3.59204,-14.312 7.18407,-17.96016 c 7.68919,0 8.98008,4.20941 8.98008,10.7761 c 0,6.62281 -5.38805,11.39347 -5.38805,17.96016 h 19.75618 c 3.76041,0 7.18407,3.36753 7.18407,7.18407 z m 7.18406,-0.0561 c 0,-7.74532 -6.62281,-14.31201 -14.36813,-14.31201 h -9.87809 c 1.68377,-3.47978 2.69403,-6.84731 2.69403,-10.77609 c 0,-3.76041 -0.2245,-7.01569 -1.9644,-10.43935 C 66.83765,5.380215 61.2251,3.303571 55.38805,3.303571 c -1.90827,0 -3.70428,0.785758 -5.0513,2.076644 C 44.7242,10.88052 46.52022,19.74835 43.15269,23.34038 c -2.13277,2.30115 -4.09716,4.71454 -6.00543,7.18407 c -1.68377,2.18889 -5.5003,7.24019 -7.6892,8.69945 H 14.07967 c -3.98491,0 -7.184064,3.19915 -7.184064,7.18407 v 35.92032 c 0,3.98492 3.199154,7.18407 7.184064,7.18407 h 16.16415 c 1.57151,0 6.11768,1.68377 7.74532,2.24502 c 7.40857,2.58177 14.81714,4.93905 22.78696,4.93905 h 5.21967 h 2.02052 c 10.38322,0 17.62341,-6.22994 17.51116,-16.83766 c 2.18889,-2.80627 3.36753,-6.39831 3.36753,-9.99034 c 0,-0.78576 -0.0561,-1.62764 -0.16838,-2.4134 c 1.40314,-2.46952 2.13277,-5.2758 2.13277,-8.08207 c 0,-1.29089 -0.16837,-2.6379 -0.50513,-3.87266 c 1.79602,-2.69403 2.75015,-5.89318 2.75015,-9.14846 z"
+         style="stroke-width:2.5144231"
+         id="path530" />
+    </g>
+  </g>
+</svg>

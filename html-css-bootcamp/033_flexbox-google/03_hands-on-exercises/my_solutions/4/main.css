@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    min-height: 120px;
+    /* border: 1px blue solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c1 {
+    background-color: lightcoral;
+    background-image: url('cat1.jpg');
+}
+
+.c2 {
+    background-color: lightblue;
+    background-image: url('cat2.jpg');
+}
+
+.c3 {
+    background-color: lightgreen;
+    background-image: url('cat3.jpg');
+}
+
+.c4 {
+    background-color: lightseagreen;
+    background-image: url('cat4.jpg');
+}
+
+.c5 {
+    background-color: lightpink;
+    background-image: url('cat5.jpg');
+}
+
+.c6 {
+    background-color: lightgrey;
+    background-image: url('cat6.jpg');
+}
+
+.c7 {
+    background-color: lightyellow;
+    background-image: url('cat7.jpg');
+}

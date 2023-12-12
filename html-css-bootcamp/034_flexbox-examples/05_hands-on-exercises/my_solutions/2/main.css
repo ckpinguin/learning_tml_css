@@ -1,0 +1,15 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px red solid;
+}
+
+p {
+    /* border: 2px blue solid; */
+    text-align: center;
+    font-size: 3rem;
+}

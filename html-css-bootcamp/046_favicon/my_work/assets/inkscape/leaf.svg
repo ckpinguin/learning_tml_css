@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg72658"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="leaf.svg">
+  <defs
+     id="defs72652">
+    <symbol
+       id="icon-leaf"
+       viewBox="0 0 28 28">
+      <title
+         id="title4792">leaf</title>
+      <path
+         style="stroke-width:0.2645833"
+         inkscape:connector-curvature="0"
+         d="m 5.291667,2.910417 c 0,-0.144727 -0.119857,-0.264584 -0.264584,-0.264584 c -1.46341,0 -2.40612,0.611717 -3.361002,1.666082 C 1.616604,4.365625 1.5875,4.423569 1.5875,4.497917 c 0,0.144727 0.119856,0.264583 0.264583,0.264583 c 0.07435,0 0.132292,-0.02884 0.186002,-0.07858 C 2.240756,4.501885 2.422525,4.303712 2.620963,4.117446 C 3.369204,3.443552 4.010025,3.174735 5.027083,3.174735 c 0.144727,0 0.264584,-0.119856 0.264584,-0.264583 z M 7.408333,2.091796 c 0,0.264583 -0.02884,0.5334 -0.08282,0.797983 C 7.060935,4.17539 6.234112,5.010679 5.084762,5.581121 C 4.526756,5.862108 3.90234,6.027473 3.273954,6.027473 c -0.396875,0 -0.806185,-0.06615 -1.182423,-0.194204 C 1.893094,5.767123 1.496219,5.506773 1.330854,5.506773 C 1.124215,5.506773 0.8760354,6.35 0.5164667,6.35 C 0.2561167,6.35 0.1775354,6.221942 0.0658813,6.031706 C 0.028575,5.961327 -2.645833e-4,5.936721 -2.645833e-4,5.849673 c 0,-0.429948 0.8186207833,-0.764911 0.8186207833,-1.004623 c 0,-0.03731 -0.1074208,-0.256381 -0.1240895,-0.338931 C 0.6693958,4.365625 0.6569604,4.220898 0.6569604,4.076171 c 0,-1.314715 1.0458976,-2.253192 2.2201186,-2.6416 C 3.72454,1.153583 5.527146,1.480079 6.101556,0.9342438 C 6.328833,0.7233708 6.440487,0.5291667 6.787885,0.5291667 c 0.467255,0 0.620184,1.2112623 0.620184,1.5626293 z"
+         id="path4794" />
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.64"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="504"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata72655">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:identifier>leaf</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-270.5416)">
+    <use
+       id="use73626"
+       transform="matrix(3.212484,0,0,3.212484,7.503033,281.0787)"
+       style="fill:black;stroke:none"
+       xlink:href="#icon-leaf"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+div {
+    background: coral;
+    border: 2px blue solid;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.floated {
+    float: left;
+}
+
+.cleared {
+    clear: both;
+}

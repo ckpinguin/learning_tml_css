@@ -1,0 +1,92 @@
+body {
+    font-family: serif;
+    color: rgb(148, 153, 147);
+}
+
+.spin {
+    animation-name: spinning;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+footer {
+    /* position */
+    position: fixed;
+    top: 85%;
+    left: 0;
+    right: 0;
+    /* layout */
+    display: flex;
+    justify-content: center;
+}
+
+#top-border {
+    /* layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* formatting */
+    width: 95%;
+    height: 8rem;
+    border-top: 2px solid gray;
+}
+
+#footer-status {
+    /* layout */
+    display: flex;
+    align-items: center;
+    /* formatting */
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+#footer-status svg {
+    font-size: .5em;
+}
+
+#footer-status p {
+    margin-left: 1rem;
+}
+
+#footer-handle {
+    /* formatting */
+    color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+#footer-handle a {
+    width: 15rem;
+    /* formatting */
+    margin-right: 2rem;
+    padding: .7rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+#footer-handle a:hover {
+    /* formatting */
+    color: whitesmoke;
+    background-color: deepskyblue;
+}

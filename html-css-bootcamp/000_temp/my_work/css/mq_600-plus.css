@@ -1,0 +1,127 @@
+/* BEGIN header & nav */
+
+label[for="hdr-nav"] {
+    display: initial;
+    position: fixed;
+    border-left: none;
+    border-radius: 1rem;
+    top: .5rem;
+    left: -1rem;
+    width: 6rem;
+    height: 2.3rem;
+    background-color: rgba(168, 231, 190, 0.3);
+    border-right: 1px solid #6c6c6c;
+    box-shadow: 1px 0 3px gray;
+    transition-property: all;
+    transition-delay: 300ms;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    /* animation-name: label-in-out;
+    animation-delay: 400ms;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: forwards; */
+}
+
+input#hdr-nav:checked~label {
+    z-index: 1;
+    border: none;
+    box-shadow: none;
+    background: none;
+    border-radius: 0;
+    /* animation-name: label-in-out; */
+    /* animation-delay: 2s; */
+    /* animation-duration: 500ms;
+    animation-timing-function: ease;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+    transition-property: all; */
+    transition-delay: 0ms;
+    transition-property: all;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+}
+
+input#hdr-nav+label>.svg-plus {
+    fill: dodgerblue;
+    width: 1.8rem;
+    height: 1.8rem;
+    /* font-size: 1rem; */
+}
+
+input#hdr-nav+label>.svg-plus {
+    padding-top: .2rem;
+    position: fixed;
+    top: .5rem;
+    left: 2.5rem;
+    cursor: pointer;
+    z-index: 1;
+    transition-property: all;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+}
+
+header {
+    display: inherit;
+    position: fixed;
+    top: 0;
+    /* hidden left */
+    left: -17rem;
+    width: 16rem;
+    height: 100vh;
+    border-right: 1px solid #6c6c6c;
+    box-shadow: 1px 0 3px gray;
+    background-color: rgba(168, 231, 190, 0.4);
+    transition-property: all;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+}
+
+header>nav {
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    width: 100%;
+}
+
+header>nav>a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* END - header & nav */
+
+
+/* BEGIN - control show/hide sidebar */
+
+input#hdr-nav:checked~header {
+    /* unhide from left, if checked */
+    left: 0;
+}
+
+input#hdr-nav:checked+label>.svg-plus {
+    transform: rotate(45deg);
+    left: 14rem;
+}
+
+
+/* END - control show/hide sidebar */
+
+
+/* BEGIN - hide mobile nav */
+
+#mobile-nav {
+    display: none;
+}
+
+
+/* END - hide mobile nav */

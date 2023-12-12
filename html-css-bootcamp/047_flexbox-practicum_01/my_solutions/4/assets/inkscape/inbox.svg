@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="inbox.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.240773"
+     inkscape:cx="90.21451"
+     inkscape:cy="51.31347"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="504"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true"
+     inkscape:pagecheckerboard="true" />
+  <defs
+     id="defs26" />
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <g
+       aria-label=""
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.1255417px;line-height:1.25;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;stroke-width:2.6531384"
+       id="text44">
+      <path
+         d="M 65.10157,53.7902 L 59.47549,65.16079 H 40.52451 L 34.89843,53.7902 h -18.7141 c 0.11844,-0.29611 0.17766,-0.65144 0.29611,-0.94755 L 29.03547,23.46861 h 41.92906 l 12.55503,29.37404 c 0.11845,0.29611 0.17767,0.65144 0.29611,0.94755 z m 30.3808,1.77665 c 0,-2.13198 -0.65144,-5.27074 -1.48054,-7.28429 L 79.90703,15.59211 C 79.07792,13.63779 76.70905,12.09802 74.63629,12.09802 H 25.36371 c -2.07276,0 -4.44163,1.53977 -5.27074,3.49409 L 5.998171,48.28256 c -0.829106,2.01355 -1.480546,5.15231 -1.480546,7.28429 v 28.54493 c 0,2.07276 1.717433,3.7902 3.790198,3.7902 H 91.69218 c 2.07276,0 3.79019,-1.71744 3.79019,-3.7902 z"
+         style="stroke-width:2.6531384"
+         id="path46" />
+    </g>
+  </g>
+</svg>

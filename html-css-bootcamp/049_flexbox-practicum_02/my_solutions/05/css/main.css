@@ -1,0 +1,54 @@
+html {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: rgb(125, 138, 143);
+}
+
+#atf {
+    /* layout */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-list {
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    /* formatting */
+    border: 1px solid #BCD2DA;
+    border-radius: 1.3rem;
+    padding: 4rem;
+}
+
+.feature-list-item {
+    /* layout */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* formatting */
+    margin-top: 2rem;
+    /* height: 11rem; */
+    padding: 1.2rem;
+    border-bottom: 1px solid #BCD2DA;
+}
+
+.feature-list-item:last-child {
+    border-bottom: transparent;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 2rem;
+}
+
+.icon {
+    fill: #BCD2DA;
+    font-size: 5rem;
+    margin: 1rem;
+}

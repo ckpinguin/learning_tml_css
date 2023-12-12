@@ -1,0 +1,12 @@
+    p {
+        font-family: 'Geo', sans-serif
+    }
+    
+    .transform {
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    
+    .spaced {
+        letter-spacing: 2rem;
+    }

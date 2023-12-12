@@ -1,0 +1,9 @@
+p {
+    color: blue;
+    /* 1 */
+}
+
+[target=_blank] {
+    /* 10 */
+    color: green;
+}

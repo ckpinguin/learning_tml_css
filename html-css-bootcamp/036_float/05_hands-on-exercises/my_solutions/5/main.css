@@ -1,0 +1,50 @@
+html,
+body,
+header,
+nav,
+main,
+footer {
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+    border-radius: 15px;
+}
+
+body {
+    margin: 2rem;
+}
+
+header {
+    background: royalblue;
+    height: 100px;
+    /* width: 100%; */
+}
+
+nav {
+    background: limegreen;
+    height: 400px;
+    float: left;
+    width: 20%;
+}
+
+main {
+    background: lightcoral;
+    height: 400px;
+    width: 80%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background: lightskyblue;
+    height: 150px;
+}

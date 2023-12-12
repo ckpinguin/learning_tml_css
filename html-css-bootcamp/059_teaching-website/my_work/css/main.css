@@ -1,0 +1,82 @@
+/* footer,
+nav {
+    border: 5px solid hotpink;
+} */
+
+html {
+    color: white;
+}
+
+#atf {
+    height: 100vh;
+    /* arrange content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* format*/
+    background-color: #464646;
+    background-image: url(../images/g_s_03_five_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    margin: .4rem 1.2rem;
+}
+
+#logo {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    opacity: .75;
+}
+
+#login {
+    display: none;
+}
+
+main h1 {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 4.5rem;
+    line-height: .95;
+    font-weight: 900;
+    text-align: center;
+}
+
+main h1:hover {
+    color: red;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    background-color: rgba(208, 255, 241, 0.08);
+}
+
+footer h2 {
+    text-align: center;
+    max-width: 40vw;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    margin: 1.7rem 1.2rem;
+}
+
+footer button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.6rem 1.2rem;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+nav {
+    display: none;
+}

@@ -1,0 +1,19 @@
+div {
+    background: orange;
+    border: 2px red solid;
+}
+
+#one {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#two {
+    position: absolute;
+    background: hotpink;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 300px;
+}

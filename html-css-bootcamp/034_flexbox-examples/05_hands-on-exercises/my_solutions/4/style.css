@@ -1,0 +1,31 @@
+body {
+    font-weight: bold;
+}
+
+header,
+aside,
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background: tomato
+}
+
+article {
+    padding: 10px;
+    background: skyblue
+}
+
+aside:nth-child(3) {
+    background: yellow
+}
+
+aside:nth-child(4) {
+    background: hotpink
+}
+
+footer {
+    background: springgreen
+}

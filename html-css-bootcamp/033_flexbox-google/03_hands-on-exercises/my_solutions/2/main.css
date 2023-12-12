@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    min-height: 120px;
+    /* border: 1px blue solid; */
+}
+
+.c1 {
+    background-color: lightcoral;
+}
+
+.c2 {
+    background-color: lightblue;
+}
+
+.c3 {
+    background-color: lightgreen;
+}
+
+.c4 {
+    background-color: lightseagreen;
+}
+
+.c5 {
+    background-color: lightpink;
+}
+
+.c6 {
+    background-color: lightgrey;
+}
+
+.c7 {
+    background-color: lightyellow;
+}

@@ -1,0 +1,51 @@
+#atf {
+    background-image: url(../images/g_s_03_five.jpg);
+}
+
+header {
+    justify-content: space-between;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+}
+
+#login h2 {
+    font-size: 0.8rem;
+    margin-bottom: .4rem;
+}
+
+#login button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem 1.2rem;
+    border: 1px white solid;
+    border-radius: 0.3rem;
+}
+
+#login button:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+nav {
+    width: 90%;
+    max-width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(211, 211, 211);
+    margin-bottom: 2rem;
+}
+
+nav a {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background: rgba(235, 231, 231, 0.2);
+}

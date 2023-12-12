@@ -1,0 +1,19 @@
+body {
+    margin: 10px auto;
+    padding: 0 2em;
+    /* align-content: flex-start;
+    align-items: flex-start; */
+}
+
+li {
+    text-align: left;
+    display: block;
+}
+
+nav {
+    width: 25%;
+}
+
+main {
+    width: 75%;
+}

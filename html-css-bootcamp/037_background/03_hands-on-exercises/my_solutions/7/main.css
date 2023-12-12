@@ -1,0 +1,8 @@
+div {
+    height: 600px;
+    width: 600px;
+    border: 20px groove orange;
+    background-image: url("../../exercise-files/dog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

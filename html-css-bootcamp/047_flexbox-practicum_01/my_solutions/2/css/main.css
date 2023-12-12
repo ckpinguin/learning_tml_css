@@ -1,0 +1,81 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 3vw; */
+}
+
+html,
+body,
+div,
+button,
+input {
+    box-sizing: border-box;
+}
+
+#atf {
+    height: 100vh;
+    /* flex-container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stepper {
+    /* flex-container */
+    display: flex;
+    /* formatting */
+    width: 12rem;
+    height: 2rem;
+}
+
+/* #stepper>* {
+    min-width: 0;
+    overflow: hidden;
+} */
+
+#stepper-minus {
+    /* flex-item */
+    flex-grow: 1;
+    /* flex-container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: deepskyblue;
+    border: 1px solid lightgray;
+    border-radius: .6rem 0 0 .6rem;
+    cursor: pointer;
+}
+
+#stepper-val {
+    /* flex-item */
+    flex-grow: 2;
+    /* flex-container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* formatting */
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    width: 0;
+}
+
+#stepper-plus {
+    /* flex-item */
+    flex-grow: 1;
+    /* flex-container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: deepskyblue;
+    border: 1px solid lightgray;
+    border-radius: 0 .6rem .6rem 0;
+    cursor: pointer;
+}
+
+#stepper>button:hover {
+    background-color: blue;
+}

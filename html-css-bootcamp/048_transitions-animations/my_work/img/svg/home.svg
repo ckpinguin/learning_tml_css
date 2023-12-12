@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg72658"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100"
+   width="100">
+  <title
+     id="title151320">home</title>
+  <defs
+     id="defs72652">
+    <symbol
+       viewBox="0 0 26 28"
+       id="icon-home">
+      <title
+         id="title80052">home</title>
+      <path
+         id="path80054"
+         d="M 5.820833,4.101042 V 6.085417 C 5.820833,6.230144 5.700977,6.35 5.55625,6.35 H 3.96875 V 4.7625 H 2.910417 V 6.35 h -1.5875 C 1.17819,6.35 1.058333,6.230144 1.058333,6.085417 V 4.101042 c 0,-0.0082 0.0042,-0.01667 0.0042,-0.02487 L 3.439583,2.116667 L 5.8166,4.076171 c 0.0042,0.0082 0.0042,0.01667 0.0042,0.02487 z M 6.742642,3.815821 L 6.48626,4.121679 C 6.46562,4.146549 6.43255,4.162949 6.39948,4.167189 H 6.38705 c -0.03307,0 -0.06191,-0.0082 -0.08678,-0.02884 L 3.439319,1.752865 L 0.5783792,4.138348 c -0.02884,0.02064 -0.061913,0.03307 -0.099219,0.02884 C 0.4460875,4.162954 0.4130146,4.14655 0.3923771,4.121679 L 0.1359958,3.815821 C 0.0904875,3.76211 0.0986896,3.675327 0.1526646,3.629819 L 3.124994,1.153583 c 0.173566,-0.144727 0.454819,-0.144727 0.628385,0 L 4.762235,1.99681 V 1.190625 c 0,-0.07435 0.05794,-0.132292 0.132292,-0.132292 h 0.79375 c 0.07435,0 0.132292,0.05794 0.132292,0.132292 v 1.686719 l 0.905404,0.752475 c 0.05371,0.04551 0.06191,0.132291 0.01667,0.186002 z"
+         style="stroke-width:0.2645833" />
+    </symbol>
+  </defs>
+  <metadata
+     id="metadata72655">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>home</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-270.5416)"
+     id="layer1">
+    <use
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       xlink:href="#icon-home"
+       style="fill:black;stroke:none"
+       transform="matrix(3.570595,0,0,3.570595,-6.609497,273.3904)"
+       id="use151306" />
+  </g>
+</svg>

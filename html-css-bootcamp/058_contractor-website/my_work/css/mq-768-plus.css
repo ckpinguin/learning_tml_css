@@ -1,0 +1,33 @@
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20vw;
+    /* border: 1px solid hotpink; */
+}
+
+.line span {
+    background-color: #d0d0d0;
+    height: 1px;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+header nav a {
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    padding: 0.9rem 1.1rem;
+    /* width: 6rem; */
+    margin: 1rem 0.7rem;
+    height: 1.5rem;
+    /* border: 1px solid black; */
+    font-size: 0.8rem;
+    color: rgb(58, 57, 57);
+    background-color: rgb(240, 240, 240);
+    text-transform: uppercase;
+}

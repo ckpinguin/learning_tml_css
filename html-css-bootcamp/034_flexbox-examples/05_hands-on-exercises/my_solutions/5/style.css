@@ -1,0 +1,10 @@
+header,
+nav,
+article,
+aside,
+footer {
+    background: khaki;
+    border: 2px black solid;
+    padding: 1.5rem;
+    text-align: center;
+}

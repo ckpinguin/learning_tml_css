@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    order: 1;
+    width: 20%;
+}
+
+article {
+    order: 2;
+    width: 60%;
+}
+
+aside {
+    order: 3;
+    width: 20%;
+}

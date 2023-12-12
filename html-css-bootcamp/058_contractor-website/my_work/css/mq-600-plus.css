@@ -1,0 +1,11 @@
+aside img {
+    margin-left: 5rem;
+}
+
+#main-image {
+    background-image: url("../images/fam_blur.jpg");
+}
+
+aside img {
+    display: unset;
+}
