@@ -98,12 +98,11 @@
   width: 4.8rem;
   border-radius: 50%;
   /* We use this, because a negative gap in the parent container does not work */
-  margin-right: -1.6rem;
   border: 3px solid #fdf2e9;
 }
 
-.delivered-imgs img:last-child {
-  margin: 0;
+.delivered-imgs img:not(:last-child) {
+  margin-right: -1.6rem;
 }
 
 .delivered-text {
@@ -372,6 +371,39 @@
   padding: 9.6rem 0;
 }
 
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  /* hide overflowing part of the label from child-element */
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  /* Always try to use percentages to be more flexible */
+  top: 6%;
+  right: -18%;
+  padding: 0.8rem 8rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffd43b;
+  transform: rotate(45deg);
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -408,4 +440,7 @@
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.feature {
 }
