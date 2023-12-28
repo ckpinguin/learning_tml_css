@@ -20,6 +20,7 @@ Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraph default: 1.6
+Large: 1.8
 
 - Letter spacing:
 -0.5px
@@ -68,6 +69,10 @@ Medium: 11px
 
 --- 07 TRANSITIONS ---
 
+Default: 0.3s
+Mobile-menu: 0.5s ease-in
+
+
 */
 
 * {
@@ -81,6 +86,8 @@ html {
   /* Beware: Usage of px here would override the user-set browser default size! */
   /* Therefore, using a percentage is better: 10px / 16px = 0.625 = 62.5 % */
   font-size: 62.5%;
+  /* Hide elements like mobile nav menus (also in html for some browsers) */
+  overflow-x: hidden;
 }
 
 body {
@@ -88,6 +95,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* Hide elements like mobile nav menus */
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /*****************************/
@@ -251,6 +261,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
