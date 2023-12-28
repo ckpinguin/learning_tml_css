@@ -78,7 +78,7 @@ Medium: 11px
 
 html {
   /* set 1 rem to an easy calculatable value */
-  /* Beware: Usage of px here would override the user-set browser default size!*/
+  /* Beware: Usage of px here would override the user-set browser default size! */
   /* Therefore, using a percentage is better: 10px / 16px = 0.625 = 62.5 % */
   font-size: 62.5%;
 }
