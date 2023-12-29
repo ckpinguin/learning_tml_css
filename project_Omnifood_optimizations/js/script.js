@@ -1,13 +1,66 @@
-console.log("Hello")
+/******************************************/
+// Set current year
+const yearEl = document.querySelector(".year")
+const currentYear = new Date().getFullYear()
+yearEl.textContent = currentYear
 
-const myName = "Chrigi"
-const h1 = document.querySelector(".heading-primary")
+/******************************************/
+// Make mobile navigation work
+const btnNavEl = document.querySelector(".btn-mobile-nav")
+const headerEl = document.querySelector(".header")
+btnNavEl.addEventListener("click", () => {
+  headerEl.classList.toggle("nav-open")
+})
 
-h1.textContent = myName
-h1.style.backgroundColor = "green"
-h1.style.padding = "5rem"
+/******************************************/
+// Smooth scrolling animation
+const allLinks = document.querySelectorAll("a:link")
+allLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault()
+    const href = link.getAttribute("href")
+    // scroll to top (when clicking logos etc.)
+    if (href === "#") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    }
+    // Scroll to other links
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href)
+      sectionEl.scrollIntoView({behavior: "smooth"})
+    }
+    // Close mobile navigation when a menu point has been clicked
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open")
+  })
+})
 
-// Fixing flexbox gap property missing in some Safari versions
+/******************************************/
+// Sticky navigation after hero section goes out of viewport
+const observer = new IntersectionObserver(
+  (entries) => {
+    const ent = entries[0]
+    console.log(ent)
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("sticky")
+    }
+    if (ent.isIntersecting) {
+      document.body.classList.remove("sticky")
+    }
+  },
+  {
+    root: null, // observe in viewport only
+    threshold: 0, // when outside viewport
+    rootMargin: "-80px",
+  }
+)
+const sectionHeroEl = document.querySelector(".section-hero")
+observer.observe(sectionHeroEl)
+
+/******************************************/
+// Fixing flexbox gap property missing in some older Safari versions
 function checkFlexGap() {
   var flex = document.createElement("div")
   flex.style.display = "flex"
@@ -15,7 +68,7 @@ function checkFlexGap() {
   flex.style.rowGap = "1px"
 
   flex.appendChild(document.createElement("div"))
-  flex.appendChild(document.createElement("dix"))
+  flex.appendChild(document.createElement("div"))
 
   document.body.appendChild(flex)
   var isSupported = flex.scrollHeight === 1
@@ -23,6 +76,6 @@ function checkFlexGap() {
   console.log(isSupported)
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap")
-
-  checkFlexGap()
 }
+
+checkFlexGap()

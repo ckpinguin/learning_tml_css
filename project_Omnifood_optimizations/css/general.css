@@ -88,6 +88,8 @@ html {
   font-size: 62.5%;
   /* Hide elements like mobile nav menus (also in html for some browsers) */
   overflow-x: hidden;
+  /* Does NOT work on Safari in 2023 */
+  scroll-behavior: smooth;
 }
 
 body {
